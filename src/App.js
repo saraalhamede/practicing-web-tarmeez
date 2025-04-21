@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-
+import MyFirstComponent from './component/MyFirstComponent';
 import React from 'react';
 function App() {
   return (
@@ -19,20 +19,13 @@ function App() {
         >
           Learn React
         </a>
-        <MyFunction />
+        <MyFirstComponent />
       </header>
 
     </div>
   );
 }
-function MyFunction() {
-  return (
-    <div>
-      <h1>My Function</h1>
-      <p>This is my function component.</p>
-    </div>
-  );
-}
+
 
 
 export default App;
